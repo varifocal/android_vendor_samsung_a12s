@@ -16,29 +16,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/deleteLogCommands:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/deleteLogCommands \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-multihal.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.usb@1.3-service.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service.coral.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/argos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/argos.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/cass.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cass.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/dumpstate-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dumpstate-default.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/emservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emservice.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/face-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default-sec.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/hyper-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hyper-default-sec.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
@@ -77,8 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.sem.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sem.rilchip.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -164,135 +150,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
-    android.frameworks.sensorservice@1.0 \
-    android.hardware.drm@1.0 \
-    android.hardware.drm@1.1 \
-    android.hardware.drm@1.2 \
-    android.hardware.drm@1.3 \
-    android.hardware.drm@1.4 \
-    android.hardware.sensors@1.0 \
-    android.hardware.sensors@2.0-ScopedWakelock \
-    android.hardware.sensors@2.0 \
-    android.hardware.sensors@2.1 \
-    android.hardware.thermal@1.0 \
-    android.hardware.thermal@2.0 \
     libGLES_mali \
     camera.exynos850 \
     gatekeeper.exynos850 \
     vulkan.mali \
     libSEF.quram \
-    libacryl \
-    libcsc \
     libexynoscamera3 \
     libexynoscamera_plugin \
     libexynoscamera_tdnr_plugin \
-    libexynosgraphicbuffer \
-    libexynosscaler \
-    libexynosutils \
-    libexynosv4l2 \
-    libgiantmscl \
-    libhidltransport \
-    libhwjpeg \
-    libion_exynos \
     libmfb \
     libprofileparamstorage \
     libremosaic_wrapper \
     libsecaudiocoreutils \
     libsecnativefeature \
     libsensorlistener \
-    libsensorndkbridge \
     libteecl \
     libuniapi \
     libuniplugin \
-    libuuid \
+    libuuid_vendor \
     sensors.grip \
     sensors.sensorhub \
     vendor.samsung.hardware.thermal@1.0 \
     liboemcrypto \
-    libprotobuf-cpp-lite-3.9.1 \
+    libspatializerparamstorage \
     libwvhidl \
     libswdap \
-    android.frameworks.cameraservice.common@2.0 \
-    android.frameworks.cameraservice.device@2.0 \
-    android.frameworks.cameraservice.service@2.0 \
-    android.frameworks.cameraservice.service@2.1 \
-    android.hardware.audio.common-util \
-    android.hardware.audio.common@2.0-util \
-    android.hardware.audio.common@6.0-util \
-    android.hardware.audio.common@6.0 \
-    android.hardware.audio.effect@2.0-util \
-    android.hardware.audio.effect@2.0 \
-    android.hardware.audio.effect@6.0-util \
-    android.hardware.audio.effect@6.0 \
-    android.hardware.audio@2.0-util \
-    android.hardware.audio@2.0 \
-    android.hardware.audio@6.0-util \
-    android.hardware.audio@6.0 \
-    android.hardware.biometrics.common-V2-ndk \
-    android.hardware.biometrics.face-V2-ndk \
-    android.hardware.biometrics.fingerprint@2.1 \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.camera.common@1.0 \
-    android.hardware.camera.device@1.0 \
-    android.hardware.camera.device@3.2 \
-    android.hardware.camera.device@3.3 \
-    android.hardware.camera.device@3.4 \
-    android.hardware.camera.device@3.5 \
-    android.hardware.camera.device@3.6 \
-    android.hardware.camera.provider@2.4 \
-    android.hardware.camera.provider@2.5 \
-    android.hardware.camera.provider@2.6 \
-    android.hardware.gatekeeper@1.0 \
-    android.hardware.gnss.measurement_corrections@1.0 \
-    android.hardware.gnss.measurement_corrections@1.1 \
-    android.hardware.gnss.visibility_control@1.0 \
-    android.hardware.gnss@1.0 \
-    android.hardware.gnss@1.1 \
-    android.hardware.gnss@2.0 \
-    android.hardware.gnss@2.1 \
-    android.hardware.graphics.composer@2.1-resources \
-    android.hardware.graphics.composer@2.1 \
-    android.hardware.graphics.composer@2.2-resources \
-    android.hardware.graphics.composer@2.2 \
-    android.hardware.keymaster@3.0 \
-    android.hardware.keymaster@4.0 \
-    android.hardware.keymaster@4.1 \
-    android.hardware.light-V1-ndk \
-    android.hardware.media.c2@1.0 \
-    android.hardware.media.c2@1.1 \
-    android.hardware.media.c2@1.2 \
-    android.hardware.nfc@1.0 \
-    android.hardware.nfc@1.1 \
-    android.hardware.nfc@1.2 \
-    android.hardware.power-V2-ndk \
-    android.hardware.radio.config@1.0 \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.radio.deprecated@1.0 \
-    android.hardware.radio@1.0 \
-    android.hardware.radio@1.1 \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.3 \
-    android.hardware.radio@1.4 \
-    android.hardware.radio@1.5 \
-    android.hardware.security.keymint-V1-ndk \
-    android.hardware.wifi@1.0 \
-    android.hardware.wifi@1.1 \
-    android.hardware.wifi@1.2 \
-    android.hardware.wifi@1.3 \
-    android.hardware.wifi@1.4 \
-    android.hidl.allocator@1.0 \
-    android.media.audio.common.types-V1-cpp \
-    android.system.keystore2-V1-ndk \
-    android.system.wifi.keystore@1.0 \
-    arm.graphics-V1-ndk \
-    audioclient-types-aidl-cpp \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-impl \
-    framework-permission-aidl-cpp \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio@2.0-impl \
@@ -304,7 +186,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl \
     android.hardware.memtrack@1.0-impl \
     android.hardware.renderscript@1.0-impl \
-    audio.bluetooth.default \
     audio.primary.default \
     audio.r_submix.default \
     audio.sec_primary.default \
@@ -322,61 +203,26 @@ PRODUCT_PACKAGES += \
     libSecC2ComponentStore \
     libSemDataProps \
     libSemTelephonyProps \
-    libalsautils \
-    libaudioclient_aidl_conversion \
-    libaudiofoundation \
-    libavservices_minijail \
     libbauthserver \
     libbauthtzcommon \
-    libcodec2_hidl@1.0 \
-    libcodec2_hidl@1.1 \
-    libcodec2_hidl@1.2 \
-    libcodec2_hidl_plugin \
-    libcodec2_vndk \
-    libcppbor_external \
-    libcppcose_rkp \
     libdk_vnd_service_core \
-    libdrm \
-    libdrmresource \
     libdsms_vendor \
-    libeffects \
-    libeffectsconfig \
     libegis_fp_normal_sensor_test \
     libengmode_client \
-    libexynosdisplay \
     libfloatingfeature \
     libgf_in_system_lib \
     libhqm_hwparam \
-    libhwbinder \
-    libhwc2on1adapter \
-    libhwc2onfbadapter \
-    libhyper \
+    libhyper_vendor \
     libhypervintf \
-    libkeymaster4_1support \
-    libkeymaster4support \
     libkeymaster_helper \
-    libkeymaster_messages \
-    libkeymaster_portable \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
-    libmediautils_vendor \
-    libmemunreachable \
-    libnbaio_mono \
-    libprotobuf-cpp-full-3.9.1 \
     libqfp_sensortest \
     libril_sem \
-    librilutils \
     libsec-ril \
     libsecaudioinfo \
     libsecril-client \
-    libsehbluetooth_audio_session_aidl \
     libsemnativecarrierfeature \
-    libshmemcompat \
-    libshmemutil \
     libskeymaster4device \
-    libspatializerparamstorage \
     libspeakercalibration \
-    libstagefright_bufferpool@2.0.1 \
     libstagefright_foundation_vendor \
     libstork_shared \
     libsynaFpSensorTestNwd \
@@ -387,15 +233,12 @@ PRODUCT_PACKAGES += \
     libucm_tlc_tz_esecomm \
     libvkmanager_vendor \
     libvkservice \
-    libwifi-hal \
     libwrappergps \
     nfc_nci_nxpsn \
-    shared-file-region-aidl-cpp \
     vendor.samsung.frameworks.security.dsms@1.0 \
     vendor.samsung.hardware.audio@1.0 \
     vendor.samsung.hardware.biometrics.face-V2-ndk \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
-    vendor.samsung.hardware.bluetooth.audio-V1-ndk \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.camera.device@5.0-impl \
     vendor.samsung.hardware.camera.device@5.0 \
@@ -412,9 +255,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
-    vendor.samsung.hardware.radio@2.2 \
     vendor.samsung.hardware.security.drk@2.0 \
     vendor.samsung.hardware.snap-V1-ndk \
     vendor.samsung.hardware.sysinput@1.0 \
@@ -428,7 +268,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.tlc.ucm@2.0-impl \
     vendor.samsung.hardware.tlc.ucm@2.0 \
     vendor.samsung.hardware.vibrator-V4-ndk \
-    vendor.samsung.hardware.wifi.supplicant-V1-ndk \
     vendor.samsung.hardware.wifi@2.0 \
     vendor.samsung.hardware.wifi@2.1 \
     vendor.samsung.hardware.wifi@2.2 \
@@ -465,7 +304,14 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.vibrator-service \
     vendor.samsung.hardware.wifi@2.0-service \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
-    wpa_supplicant \
     tzdaemon \
     tzts_daemon \
     vaultkeeperd
+
+PRODUCT_PACKAGES += \
+    vendor_lib_libOpenCL_so \
+    vendor_lib_libOpenCL_so_1 \
+    vendor_lib_libOpenCL_so_1_1 \
+    vendor_lib64_libOpenCL_so \
+    vendor_lib64_libOpenCL_so_1 \
+    vendor_lib64_libOpenCL_so_1_1
