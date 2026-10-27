@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/deleteLogCommands:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/deleteLogCommands \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
+    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
@@ -24,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/argos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/argos.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/cass.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cass.rc \
+    vendor/samsung/a12s/proprietary/vendor/etc/init/dumpstate-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dumpstate-default.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/emservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emservice.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/face-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default-sec.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
@@ -274,10 +276,13 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.wifi@2.3 \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     cass \
+    android.hardware.cas@1.2-service-lazy_samsung \
     android.hardware.drm@1.4-service.widevine \
+    android.hardware.dumpstate-service \
     android.hardware.graphics.allocator@4.0-service \
     android.hardware.graphics.composer@2.2-service \
     android.hardware.power.samsung-service \
+    android.hardware.usb@1.3-service.coral \
     gps \
     gpsd \
     macloader \
