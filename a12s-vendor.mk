@@ -210,7 +210,10 @@ PRODUCT_PACKAGES += \
     libdk_vnd_service_core \
     libdsms_vendor \
     libegis_fp_normal_sensor_test \
+    libengmode2lite \
     libengmode_client \
+    libengmode_server \
+    libengmode_tlc \
     libfloatingfeature \
     libgf_in_system_lib \
     libhqm_hwparam \
@@ -224,6 +227,7 @@ PRODUCT_PACKAGES += \
     libsecril-client \
     libsemnativecarrierfeature \
     libskeymaster4device \
+    libsnap_vndk \
     libspeakercalibration \
     libstagefright_foundation_vendor \
     libstork_shared \
@@ -258,6 +262,9 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.security.drk@2.0 \
+    vendor.samsung.hardware.security.engmode@1.0 \
+    vendor.samsung.hardware.security.vaultkeeper@2.0 \
+    vendor.samsung.hardware.security.widevine.keyprov@1.0 \
     vendor.samsung.hardware.snap-V1-ndk \
     vendor.samsung.hardware.sysinput@1.0 \
     vendor.samsung.hardware.sysinput@1.1 \
@@ -275,14 +282,18 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.wifi@2.2 \
     vendor.samsung.hardware.wifi@2.3 \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
+    argosd \
     cass \
+    emservice \
     android.hardware.cas@1.2-service-lazy_samsung \
+    android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.dumpstate-service \
     android.hardware.graphics.allocator@4.0-service \
     android.hardware.graphics.composer@2.2-service \
     android.hardware.power.samsung-service \
     android.hardware.usb@1.3-service.coral \
+    android.hardware.wifi@1.0-service \
     gps \
     gpsd \
     macloader \
@@ -309,9 +320,15 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.vibrator-service \
     vendor.samsung.hardware.wifi@2.0-service \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
+    snap_utility_64 \
     tzdaemon \
     tzts_daemon \
-    vaultkeeperd
+    vaultkeeperd \
+    vendor.samsung.hardware.security.engmode@1.0-service \
+    vendor.samsung.hardware.security.proca@2.0-service \
+    vendor.samsung.hardware.security.vaultkeeper@2.0-service \
+    vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
+    wlbtd
 
 PRODUCT_PACKAGES += \
     vendor_lib_libOpenCL_so \
