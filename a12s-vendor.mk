@@ -16,6 +16,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/deleteLogCommands:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/deleteLogCommands \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/a12s/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
+    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.rc \
+    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
@@ -165,6 +167,7 @@ PRODUCT_PACKAGES += \
     libremosaic_wrapper \
     libsecaudiocoreutils \
     libsecnativefeature \
+    libsehbluetooth_audio_session_aidl \
     libsensorlistener \
     libteecl \
     libuniapi \
@@ -172,11 +175,15 @@ PRODUCT_PACKAGES += \
     libuuid_vendor \
     sensors.grip \
     sensors.sensorhub \
+    vendor.samsung.hardware.bluetooth.audio-V1-ndk \
+    vendor.samsung.hardware.bluetooth.audio-impl \
     vendor.samsung.hardware.thermal@1.0 \
+    android.hardware.bluetooth.a2dp@1.0 \
     liboemcrypto \
     libspatializerparamstorage \
     libwvhidl \
     libswdap \
+    vendor.samsung_slsi.hardware.ExynosA2DPOffload@2.0 \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio@2.0-impl \
