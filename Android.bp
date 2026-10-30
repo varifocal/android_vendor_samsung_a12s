@@ -253,6 +253,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libexynoscamera3.so",
             ],
             shared_libs: [
+                "libshim_libui_mapper",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -286,6 +287,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libexynoscamera3.so",
             ],
             shared_libs: [
+                "libshim_libui_mapper",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -2553,6 +2555,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libkeymaster_helper.so",
             ],
             shared_libs: [
+                "libshim_boringssl",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -3154,6 +3157,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/nfc_nci_nxpsn.so",
             ],
             shared_libs: [
+                "libshim_libbase",
                 "android.hardware.nfc@1.0",
                 "android.hardware.nfc@1.1",
                 "android.hardware.nfc@1.2",
