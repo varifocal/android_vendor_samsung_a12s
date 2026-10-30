@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.hqm@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
@@ -247,10 +246,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.biometrics.face-V2-ndk \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
     vendor.samsung.hardware.bluetooth@2.0 \
-    vendor.samsung.hardware.camera.device@5.0-impl \
-    vendor.samsung.hardware.camera.device@5.0 \
-    vendor.samsung.hardware.camera.provider@4.0-legacy \
-    vendor.samsung.hardware.camera.provider@4.0 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.gnss@2.1 \
     vendor.samsung.hardware.health-V1-ndk \
@@ -302,7 +297,6 @@ PRODUCT_PACKAGES += \
     rild \
     vendor.samsung.hardware.biometrics.face-service \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
-    vendor.samsung.hardware.camera.provider@4.0-service_64 \
     vendor.samsung.hardware.gnss@2.1-service \
     vendor.samsung.hardware.hqm@1.0-service \
     vendor.samsung.hardware.hyper-service \
