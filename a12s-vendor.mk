@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/power-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power-default-sec.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/samsung.software.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.software.media.c2@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
@@ -209,7 +208,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.1-impl \
     vibrator.default \
     libExynosHWCService \
-    libSecC2ComponentStore \
     libSemDataProps \
     libSemTelephonyProps \
     libbauthserver \
@@ -236,7 +234,6 @@ PRODUCT_PACKAGES += \
     libskeymaster4device \
     libsnap_vndk \
     libspeakercalibration \
-    libstagefright_foundation_vendor \
     libstork_shared \
     libsynaFpSensorTestNwd \
     libtlc_comm_iccc \
@@ -307,7 +304,6 @@ PRODUCT_PACKAGES += \
     mfgloader \
     nxp.android.hardware.nfc@1.2-service \
     rild \
-    samsung.software.media.c2@1.0-service \
     vendor.samsung.hardware.biometrics.face-service \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor.samsung.hardware.camera.provider@4.0-service_64 \
