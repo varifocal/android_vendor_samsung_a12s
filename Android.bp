@@ -862,7 +862,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/sensors.grip.so",
             ],
             shared_libs: [
-                "libutils-v32",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -882,7 +881,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/sensors.grip.so",
             ],
             shared_libs: [
-                "libutils-v32",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -915,7 +913,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/sensors.sensorhub.so",
             ],
             shared_libs: [
-                "libutils-v32",
                 "android.hardware.sensors@1.0",
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.0-ScopedWakelock",
@@ -938,7 +935,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/sensors.sensorhub.so",
             ],
             shared_libs: [
-                "libutils-v32",
                 "android.hardware.sensors@1.0",
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.0-ScopedWakelock",

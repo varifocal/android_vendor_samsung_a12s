@@ -124,6 +124,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/firmware/tdnr_S5K4HA.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_S5K4HA.json \
     vendor/samsung/a12s/proprietary/vendor/firmware/tdnr_S5KGM2.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_S5KGM2.json \
     vendor/samsung/a12s/proprietary/vendor/firmware/tdnr_SR846.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_SR846.json \
+    vendor/samsung/a12s/proprietary/vendor/firmware/tsp_novatek/nt36525_a12s_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_novatek/nt36525_a12s_csot.bin \
+    vendor/samsung/a12s/proprietary/vendor/firmware/tsp_novatek/nt36525_a12s_dtc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_novatek/nt36525_a12s_dtc.bin \
+    vendor/samsung/a12s/proprietary/vendor/firmware/tsp_novatek/nt36525_a12s_mp_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_novatek/nt36525_a12s_mp_csot.bin \
+    vendor/samsung/a12s/proprietary/vendor/firmware/tsp_novatek/nt36525_a12s_mp_dtc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_novatek/nt36525_a12s_mp_dtc.bin \
+    vendor/samsung/a12s/proprietary/vendor/firmware/tsp_novatek/nt36525_a12s_mp_sharp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_novatek/nt36525_a12s_mp_sharp.bin \
+    vendor/samsung/a12s/proprietary/vendor/firmware/tsp_novatek/nt36525_a12s_sharp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_novatek/nt36525_a12s_sharp.bin \
     vendor/samsung/a12s/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
     vendor/samsung/a12s/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
     vendor/samsung/a12s/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
