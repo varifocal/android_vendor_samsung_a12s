@@ -4394,7 +4394,6 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.dumpstate-service",
-    overrides: ["android.hardware.dumpstate-service"],
     owner: "samsung",
     target: {
         android_arm64: {
@@ -4427,7 +4426,6 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.graphics.allocator@4.0-service",
-    overrides: ["android.hardware.graphics.allocator@4.0-service"],
     owner: "samsung",
     target: {
         android_arm64: {
@@ -4457,7 +4455,6 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.graphics.composer@2.2-service",
-    overrides: ["android.hardware.graphics.composer@2.2-service"],
     owner: "samsung",
     target: {
         android_arm64: {
