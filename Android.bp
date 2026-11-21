@@ -2554,7 +2554,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libkeymaster_helper.so",
             ],
             shared_libs: [
-                "libshim_boringssl",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -2563,7 +2562,9 @@ cc_prebuilt_library_shared {
                 "libkeymaster4support",
                 "libkeymaster4_1support",
                 "libhidlbase",
-                "libcrypto",
+                "libcrypto-tm",
+                "libssl-tm",
+                "libshim_crypto",
                 "libteecl",
                 "libc++",
                 "libc",
@@ -2573,6 +2574,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -2795,7 +2797,9 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libkeymaster_messages",
-                "libcrypto",
+                "libcrypto-tm",
+                "libssl-tm",
+                "libshim_crypto",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -2813,6 +2817,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
