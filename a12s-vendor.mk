@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
-    vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.usb@1.3-service.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service.coral.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/a12s/proprietary/vendor/etc/init/argos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/argos.rc \
@@ -193,19 +191,13 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gnss@2.1-impl \
-    android.hardware.graphics.allocator@4.0-impl \
-    android.hardware.graphics.mapper@4.0-impl \
-    android.hardware.memtrack@1.0-impl \
     android.hardware.renderscript@1.0-impl \
     audio.primary.default \
     audio.r_submix.default \
     audio.sec_primary.default \
     audio.usb.default \
     fingerprint.default \
-    gralloc.default \
-    hwcomposer.exynos850 \
     local_time.default \
-    memtrack.exynos850 \
     power.default \
     vendor.samsung.hardware.audio@1.0-impl \
     vendor.samsung.hardware.gnss@2.1-impl \
@@ -291,8 +283,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.dumpstate-service \
-    android.hardware.graphics.allocator@4.0-service \
-    android.hardware.graphics.composer@2.2-service \
     android.hardware.usb@1.3-service.coral \
     android.hardware.wifi@1.0-service \
     gps \
